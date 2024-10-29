@@ -59,8 +59,8 @@ footer {
   font-family: merienda;
   font-size: 20px;
   width: 100%;
-  padding: 10px;
-  border-radius: 15px;
-  border: 1px solid #ae00ff;
+  padding: 16px;
+  border-radius: 50px;
+  border: 1px solid rgba(39, 33, 66, 0.5);
   margin-bottom: 20px;
 }
