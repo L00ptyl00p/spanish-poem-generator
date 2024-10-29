@@ -47,6 +47,8 @@ button:hover {
   white-space: pre-wrap;
   font-family: merienda;
   font-size: 20px;
+  padding: 20px;
+  line-height: 1.5;
 }
 footer {
   text-align: center;
