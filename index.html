@@ -9,14 +9,29 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Pacifico&family=Prociono&family=Spicy+Rice&display=swap');
     </style>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 
 <body>
     <div class="container">
-        <h1>Generador de Poemas en Español</h1>
-        <textarea id="inputText" placeholder="Escribe algunas palabras..." autofocus required></textarea>
-        <button onclick="generatePoem()">Generar Poema</button>
-        <div class="poem" id="poemOutput"></div>
+        <header>
+            <h1>Generador de Poemas en Español</h1>
+        </header>
+
+        <main>
+            <form id="poem-generator-form">
+                <input id="inputText" placeholder="Escribe algunas palabras..." autofocus required autocomplete="off"
+                    class=" instructions" id="user-instructions">
+                <input type=" submit" value="Generar " class="button">
+            </form>
+            <br />
+            <div class="poem" id="poemOutput">
+                Rosal
+            </div>
+
+        </main>
+
     </div>
 
     <script src="index.js"></script>
