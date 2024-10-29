@@ -1,3 +1,5 @@
+alert("¡Hola! Soy un script en un archivo externo.");
+
 function generatePoem() {
   const inputText = document.getElementById("inputText").value;
   const poemOutput = document.getElementById("poemOutput");

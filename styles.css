@@ -27,14 +27,15 @@ button {
   display: block;
   width: 100%;
   padding: 10px;
-  background-color: #007bff;
+
+  background-color: #ae00ff;
   color: #fff;
   border: none;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #2d6bbd;
 }
 
 .poem {
