@@ -14,7 +14,7 @@ body {
 
 h1 {
   text-align: center;
-  font-family: pacifico, cursive;
+  font-family: prociono;
   color: #ae00ff;
   font-size: 50px;
   font-weight: 100;
@@ -52,4 +52,5 @@ footer {
   margin-top: 20px;
   font-size: 15px;
   color: #121080de;
+  font-family: merienda;
 }
