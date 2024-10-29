@@ -4,6 +4,9 @@ body {
   padding: 20px;
 }
 
+a {
+  color: #2d6bbd;
+}
 .container {
   max-width: 600px;
   margin: 120px auto;
@@ -22,7 +25,7 @@ h1 {
 
 textarea {
   width: 100%;
-  height: 150px;
+  height: 100px;
   margin-bottom: 20px;
 }
 
@@ -43,16 +46,18 @@ button:hover {
 }
 
 .poem {
-  margin-top: 20px;
+  margin: 20px 0;
   white-space: pre-wrap;
   font-family: merienda;
-  font-size: 20px;
+  font-size: 18px;
   padding: 20px;
   line-height: 15px;
+  border-left: 3px solid #2c023f;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 footer {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 30px;
   font-size: 15px;
   color: #1c013ade;
   font-family: merienda;
