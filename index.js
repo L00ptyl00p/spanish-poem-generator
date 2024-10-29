@@ -1,4 +1,5 @@
 alert("Hello, world!");
+
 let apiKey = "47b90c9bbea7cd28cta502ea562f03od";
 let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt={prompt}&context={context}&key={key}`;
 
