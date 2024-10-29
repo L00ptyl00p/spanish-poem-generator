@@ -6,7 +6,7 @@ body {
 
 .container {
   max-width: 600px;
-  margin: 0 auto;
+  margin: 120px auto;
   background-color: #fff;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -15,7 +15,7 @@ body {
 h1 {
   text-align: center;
   font-family: prociono;
-  color: #ae00ff;
+  color: #4a026b;
   font-size: 50px;
   font-weight: 100;
 }
@@ -35,7 +35,7 @@ button {
   color: #fff;
   border: none;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 button:hover {
@@ -54,4 +54,13 @@ footer {
   font-size: 15px;
   color: #1c013ade;
   font-family: merienda;
+}
+.inputText {
+  font-family: merienda;
+  font-size: 20px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #ae00ff;
+  margin-bottom: 20px;
 }
