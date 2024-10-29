@@ -44,6 +44,8 @@ button:hover {
 .poem {
   margin-top: 20px;
   white-space: pre-wrap;
+  font-family: merienda;
+  font-size: 20px;
 }
 footer {
   text-align: center;
