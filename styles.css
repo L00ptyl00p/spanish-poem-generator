@@ -45,3 +45,9 @@ button:hover {
   margin-top: 20px;
   white-space: pre-wrap;
 }
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #121080de;
+}
