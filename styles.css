@@ -60,11 +60,16 @@ footer {
   line-height: 20px;
   color: #272044;
 }
-.button:hover {
-  background-color: #2d6bbd;
-  cursor: pointer;
+.submit-button {
+  margin-left: 10px;
+  background: #885df1;
+  color: white;
+  border: none;
+  width: 150px;
+  font-size: 16px;
+  border-radius: 50px;
+  padding: 14px 24px;
 }
-
 .poem {
   font-size: 16px;
   background-color: #fff;
@@ -72,4 +77,7 @@ footer {
   line-height: 2;
   border-left: 3px solid #885df1;
   box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+}
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
 }
